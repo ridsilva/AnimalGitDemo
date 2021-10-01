@@ -1,6 +1,6 @@
 public class Dog implements Animal {
     private static final String WOOF = "Woof!";
-    private static final String NOPE ="NOPE";
+    private static final String NOP ="NOPE";
     private String name;
 
     public Dog(String name) {
@@ -19,6 +19,6 @@ public class Dog implements Animal {
 
     @Override
     public String no() {
-        return Dog.NOPE;
+        return Dog.NOP;
     }
 }

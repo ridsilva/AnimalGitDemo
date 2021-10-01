@@ -1,6 +1,6 @@
 public class Cat implements Animal {
     private static final String MEOW = "Meow!";
-    private static final String NAO ="NOPE";
+    private static final String NA ="NOPE";
     private String name;
 
     public Cat(String name) {
@@ -19,6 +19,6 @@ public class Cat implements Animal {
 
     @Override
     public String no() {
-        return Cat.NAO;
+        return Cat.NA;
     }
 }
