@@ -8,6 +8,7 @@ public class Main {
         Animal dog = new Dog("Bobby");
         Animal cat = new Cat("Kitty");
         System.out.println(dog.getName() + " says " + dog.speak());
-        System.out.println(cat.getName() + " says " + cat.speak());
+        System.out.println(cat.getName() + " says " + cat.speak() + "!");
+        System.out.println(cat.getName() + " says " + cat.speak() + "!");
     }
 }
